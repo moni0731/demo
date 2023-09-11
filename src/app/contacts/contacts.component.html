@@ -1,0 +1,8 @@
+<p>contacts works!</p>
+<div>
+    <app-contact *ngFor="let contact of list" [name]="contact.name"
+                                              [phone]="contact.phone" 
+                                              [email]="contact.email" 
+                                              [gender]="contact.gender"></app-contact>
+
+</div>
